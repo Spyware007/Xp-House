@@ -95,12 +95,12 @@ body{
 .contents{
     position: relative;
     z-index: 2;
-    background: url(assets/xyz.png) center bottom no-repeat;
+    background: url(assets/logo.png) center bottom no-repeat;
     background-size: auto 90%;
     height: 90vh;
 }
 
-.profession{
+.content1{
     font-size: 60px;
     color: white;
     font-weight: bold;
@@ -109,7 +109,7 @@ body{
     left: 19%;
 }
 
-.profession span{
+.content1 span{
     opacity: 0.2;
     font-size: 260px;
     position: absolute;
@@ -117,7 +117,7 @@ body{
     left: -65%;
     font-family: Tahoma;
 }
-.name{
+.content2{
     opacity: 0.8;
     font-size: 30px;
     line-height: 1;
@@ -129,7 +129,7 @@ body{
     font-family:  Tahoma;
 }
 
-.link1,.contact_me_link{
+.link1,.link2{
     display: block;
     width: 150px;
     text-align: center;
@@ -145,14 +145,14 @@ body{
     font-size: 18px;
     font-weight: 400;
 }
-.contact_me_link{
+.link2{
     color: white;
     left: 100% !important;
     margin-left: -65px;
     transform: translate(-50%,-50%) rotate(-90deg);
 }
 
-.portfolio_link{
+.link3{
     display: block;
     text-align: center;
     position: absolute;
@@ -167,7 +167,7 @@ body{
     padding-left: 18px;
 }
 
-.link1:before,.contact_me_link::before{
+.link1:before,.link2::before{
     background: #ee4266;
     content: "";
     position: absolute;
@@ -179,11 +179,11 @@ body{
     margin: 0 0 0 -3px;
 }
 
-.contact_me_link:before{
+.link2:before{
     background: yellow;
 }
 
-.link1:after,.contact_me_link::after{
+.link1:after,.link2::after{
     content: "";
     position: absolute;
     transition: all 0.3s ease;
@@ -195,14 +195,14 @@ body{
     margin-bottom: 13px;
     margin-left: -1px;
 }
-.contact_me_link:after{
+.link2:after{
     background: linear-gradient(to bottom,rgba(248,179,52,0) 0%,rgba(248,179,52,1) 100%);
 }
-.link1:hover:after,.contact_me_link:hover:after{
+.link1:hover:after,.link2:hover:after{
     height: 0;
 }
 
-.portfolio_link:before{
+.link3:before{
     background: white;
     content: "";
     position: absolute;
@@ -213,10 +213,10 @@ body{
     left: 0;
     margin: 0 0 0 -3px;
 }
-.portfolio_link:hover:after{
+.link3:hover:after{
     height: 0;
 }
-.portfolio_link:after{
+.link3:after{
     content: "";
     position: absolute;
     transition: all 0.3s ease;
