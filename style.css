@@ -171,8 +171,8 @@ body{
     background: url(assets/logo.png) center bottom no-repeat;
     background-size: auto 90%;
     z-index: 2;
-    height: 50vh;
-    width: 60%;
+    height: 80vh;
+    width: 80%;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -223,7 +223,7 @@ body{
 
     .content2{
         font-size: 20px;
-        top: 90%;
+        top: 80%;
         right: 17%;
     }
 }
@@ -337,8 +337,14 @@ body{
         background-size: auto 60%;
         top: 40%;
     }
+    .link1{
+        left:50px;
+    }
+    .link2{
+        margin-left:-20px ;
+    }
     .link3{
-        top: 70%;
-        left: 250px;
+        top: 74%;
+        left: 180px;
     }
 }
