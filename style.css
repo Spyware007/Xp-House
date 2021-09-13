@@ -123,6 +123,7 @@ body{
         width: 100%;
         transform: translateX(100%);
         transition: transform 0.5s ease-in;
+        display: none;
     }
 
     .nav-links li{
@@ -136,6 +137,7 @@ body{
 }
 .nav-active{
     transform: translateX(0%);
+    display: flex;
 }
 
 @keyframes navLinkFade{
@@ -176,7 +178,6 @@ body{
     left: 50%;
     transform: translate(-50%,-50%);
 }
-
 
 .content1{
     font-size: 60px;
