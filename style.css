@@ -166,6 +166,18 @@ body{
     background-size: auto 90%;
     height: 90vh;
 }
+.hat-logo{
+    background: url(assets/logo.png) center bottom no-repeat;
+    background-size: auto 90%;
+    z-index: 2;
+    height: 50vh;
+    width: 60%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
 
 .content1{
     font-size: 60px;
@@ -320,5 +332,9 @@ body{
     }
     .contents div p{
         padding-left: 65px;
+    }
+    .hat-logo{
+        background-size: auto 60%;
+        top: 40%;
     }
 }
