@@ -162,7 +162,6 @@ body{
 .contents{
     position: relative;
     z-index: 2;
-    background: url(assets/logo.png) center bottom no-repeat;
     background-size: auto 90%;
     height: 90vh;
 }
