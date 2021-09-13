@@ -347,4 +347,7 @@ body{
         top: 74%;
         left: 180px;
     }
+    .main::before{
+        right: 0;
+    }
 }
