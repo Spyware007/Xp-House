@@ -136,8 +136,9 @@ body{
     
 }
 .nav-active{
-    transform: translateX(0%);
+    transform: translatex(-10%);
     display: flex;
+    padding:0;
 }
 
 @keyframes navLinkFade{
