@@ -317,6 +317,10 @@ ul{
     margin-bottom: 30px;
     text-align:center ;
 }
+    .container, .box1{
+    width: 100%;
+    overflow-x:hidden;
+}
 }
 @media(max-width: 574px){
   .footer-col{
