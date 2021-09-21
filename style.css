@@ -50,7 +50,7 @@ body{
     width: 70%;
     height: 100vh;
     background-color: #2e0cf1;
-    background-image: linear-gradient(315deg,	#7b73e0 0%,#6851bd 74%);
+    background-image: linear-gradient(315deg, deepskyblue 0%, rgb(4, 176, 233) 74%);
     overflow: hidden;
     transform: skewX(-15deg);
     transform-origin: 0 0;
