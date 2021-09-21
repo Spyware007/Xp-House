@@ -539,13 +539,15 @@ body{
     font-size: 26px;
     font-weight: 300;
     color:rgb(208, 255, 0);
+    padding-left:24px;
 }
 .contact .content .low
 {
     font-size: 24px;
     font-weight: 500;
     color: #f5f6f7;
-
+    text-align: left;
+    padding-left:24px;
 }
 .container
 {
