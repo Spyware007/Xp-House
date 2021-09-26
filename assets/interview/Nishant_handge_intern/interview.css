@@ -1,0 +1,247 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 10px;
+}
+body{
+    background-position: 0 1000px;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.box{
+
+    background-color: #013A6B;
+    background-image: -webkit-linear-gradient(30deg, #6f9794 50%, #042c31 50%);
+    min-height: 1000px;
+    overflow: hidden;
+}
+.container{
+    max-width: 100%;
+    min-height: 100%;
+    margin: auto;
+    padding: 0 3rem;
+    margin-top: 4rem;
+    text-align: center;
+}
+.social_icons {
+    position: relative;
+    display: flex;
+    margin-top: 5px;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 20px;
+}
+.social_icons li{
+    list-style: none;
+    margin: 4px;
+}
+.social_icons li a{
+    width: 45px;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #294d69;
+    border-radius: 50%;
+    font-size: 1.5em;
+    color: #fff;
+    text-decoration: none;
+    transition: 0.5s;
+}
+.social_icons li a:hover{
+    transform: rotate(360deg);
+    background: #2196f3;
+}
+h1{
+    padding-top: 40px;
+    color: #2196f3;
+    font-size: 5rem;
+    font-weight: 700;
+    letter-spacing: 8px;
+    margin-bottom: 2rem;
+}
+h2{
+    color: #2196f3;
+    font-size: 4rem;
+    font-weight: 400;
+}
+h3{
+    font-size: 2rem;
+    font-weight: 800;
+    color: white;
+    padding-top: 40px;
+}
+.image{
+    margin-top: 10rem;
+    margin-bottom: 5rem;
+}
+.image img{
+    background-size: 150px;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border: solid 2px green;
+    border-radius: 50%;
+}
+p,.advice{
+    font-size: 2rem;
+    color: #050416;
+    line-height: 5rem;
+    margin-bottom: 5rem;
+}
+.advice .adv{
+    font-size: 50px;
+    color: #0c0b1a;
+}
+.advice li{
+    list-style: none;
+}
+.glass{
+    background-color: rgba(255, 255, 255, 0.7);
+    width: 60%;
+    position: relative;
+    display: block;
+    left: 22%;
+    border-radius: 10px;
+    backdrop-filter: blur(8px);
+    overflow: hidden;
+    margin-top: 5px;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+@media screen and (max-width:768px){
+    h1{
+        font-size: 38px;
+    }
+    h2{
+        font-size: 28px;
+    }
+    h3{
+        font-size: 15px;
+    }
+    .glass{
+        width: 100%;
+        left: 0%;
+    }
+    p,.advice{
+        font-size: 15px;
+        line-height: 15px;
+    }
+}
+.footer-container{
+    max-width: 1170px;
+    margin:auto;
+}
+.footimg{
+    width: 100px;
+}
+.contentfoot{
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+    position: relative;
+}
+
+.contentfoot span{
+    opacity: 0.2;
+    font-size: 26px;
+    position: relative;
+    top: -10%;
+    font-family: Tahoma;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+ul{
+    list-style: none; 
+}
+.footer{
+    background-color: #24262b;
+    padding: 10px 0;
+}
+.footer-col{
+   width: 25%;
+   padding: 0 15px;
+}
+.footer-col h4{
+    font-size: 18px;
+    color: #ffffff;
+    text-transform: capitalize;
+    margin-bottom: 35px;
+    font-weight: 500;
+    position: relative;
+}
+.footer-col h4::before{
+    content: '';
+    position: absolute;
+    left:0;
+    bottom: -10px;
+    background-color: #e91e63;
+    height: 2px;
+    box-sizing: border-box;
+    width: 50px;
+}
+.footer-col ul li:not(:last-child){
+    margin-bottom: 10px;
+}
+.footer-col ul li a{
+    font-size: 16px;
+    text-transform: capitalize;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 300;
+    color: #bbbbbb;
+    display: block;
+    transition: all 0.3s ease;
+}
+.footer-col ul li a:hover{
+    color: #ffffff;
+    padding-left: 8px;
+}
+.footer-col .social-links a{
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    background-color: rgba(255,255,255,0.2);
+    margin:0 10px 10px 0;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    color: #ffffff;
+    transition: all 0.5s ease;
+}
+.footer-col .social-links a:hover{
+    color: #24262b;
+    background-color: #ffffff;
+}
+.locate{
+    color:#bbbbbb;
+    font-size: 16px;
+}
+.copyrights{
+    display: block;
+    font-size: 25px;
+    color: #bbbbbb;
+    text-align: center;
+}
+@media(max-width: 767px){
+  .footer-col{
+
+    width: 50%;
+    margin-bottom: 30px;
+    text-align:center ;
+}
+}
+@media(max-width: 574px){
+  .footer-col{
+
+    width: 100%;
+}
+}
