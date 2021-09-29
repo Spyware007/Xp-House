@@ -606,11 +606,13 @@ ul{
 
 @media(max-width: 767px){
   .footer-col{
-
-    width: 50%;
-    margin-bottom: 30px;
-    text-align:center ;
-}
+        width: 50%;
+        margin-bottom: 30px;
+        text-align:center ;
+    }
+    .copyrights{
+        padding-left: 8px;
+    }
 }
 @media(max-width: 574px){
   .footer-col{
