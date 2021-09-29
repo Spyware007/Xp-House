@@ -506,6 +506,7 @@ body{
 .readmore:hover{
     color: blue;
 }
+
 /* footer */
 .footer-container{
     max-width: 1170px;
@@ -520,7 +521,6 @@ body{
     font-weight: bold;
     position: relative;
 }
-
 .contentfoot span{
     opacity: 0.2;
     font-size: 26px;
@@ -536,7 +536,7 @@ ul{
     list-style: none; 
 }
 .footer{
-    background-color: #24262b;
+    background: rgba(62, 138, 173, 0.3);
     padding: 10px 0;
 }
 .footer-col{
