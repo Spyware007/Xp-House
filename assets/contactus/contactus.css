@@ -11,6 +11,52 @@ body{
     min-height: 100vh;
     background: linear-gradient(deepskyblue,red);  
 }
+header{
+    position: absolute;
+    top: 27px;;
+    right: 25px;
+    z-index: 999;
+    width: 100%;
+    
+}
+.nav{
+    float: right;
+    margin-right: 10px;
+}
+
+.nav ul{
+    margin: 0;
+    padding: 0;
+    float: left;
+}
+
+.nav ul li{
+    list-style: none;
+    float: left;
+    margin-left: 25px;
+}
+.nav ul li a{
+    transition:all 0.5s ease-in-out;
+    font-size: 17px;
+    color: white;
+    text-transform:capitalize;
+    text-decoration: none;
+    font-weight: normal;
+    font-family: 'Poppins',sans-serif;
+}
+
+.nav ul li a:hover{
+    color: yellow;
+    font-size: 20px;
+    border-bottom: 2px solid;
+    text-decoration: none;
+}
+
+@media(max-width: 769px){
+    header{
+        display: none;
+}
+}
 .container{
     width: 80%;
     padding: 20px;
