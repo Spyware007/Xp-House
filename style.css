@@ -121,10 +121,10 @@ body{
 
     .nav-links{
         position: absolute;
-        right: -90px;
+        right: -170px;
         height: 92vh;
-        top: 8vh;
-        font-size: 30px;
+        top: 4vh;
+        font-size: 21px;
         background:transparent;
         display: flex;
         flex-direction: column;

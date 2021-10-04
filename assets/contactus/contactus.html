@@ -1,64 +1,89 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="contactus.css">
-    <link rel="icon" href="../favicon.png" type="image/icon type" sizes="32 x 32">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="contactus.css" />
+    <link
+      rel="icon"
+      href="../favicon.png"
+      type="image/icon type"
+      sizes="32 x 32"
+    />
     <title>Contact Us</title>
-</head>
-<body>
-    <form action="https://formsubmit.co/omngawande8888695399@gmail.com" method="POST">
-        <div class="container">
-            <h2>Contact Us</h2>
-            <div class="row">
-                <div class="col">
-                    <div class="inputBox">
-                        <input type="text" name="Fname" required="required">
-                        <span class="text">First Name</span>
-                        <span class="line"></span>
-                    </div>
-                </div>
-                <div class="col">
-                    <div class="inputBox">
-                        <input type="text" name="Lname" required="required">
-                        <span class="text">Last Name</span>
-                        <span class="line"></span>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col">
-                    <div class="inputBox">
-                        <input type="text" name="Email" required="required">
-                        <span class="text">Email</span>
-                        <span class="line"></span>
-                    </div>
-                </div>
-                <div class="col">
-                    <div class="inputBox">
-                        <input type="text" name="number" required="required">
-                        <span class="text">Mobile</span>
-                        <span class="line"></span>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col">
-                    <div class="inputBox textarea">
-                        <textarea name="Type here" required="required"></textarea>
-                        <span class="text">Type your Message here...</span>
-                        <span class="line"></span>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col">
-                    <input type="submit" value="Send">
-                </div>
-            </div>
+  </head>
+  <body>
+    <header class="header">
+      <nav class="nav">
+        <ul class="nav-links">
+          <li><a href="/index.html">Home</a></li>
+          <li><a href="../interviews/interviews.html">Interviews </a></li>
+          <li><a href="../about/about.html">About Us</a></li>
+          <li><a href="../feedback/feedback.html">Feedback</a></li>
+          <li><a href="./contactus.html">Contact Us</a></li>
+        </ul>
+        <div class="burger">
+          <div class="line1"></div>
+          <div class="line2"></div>
+          <div class="line3"></div>
         </div>
+      </nav>
+    </header>
+    <form
+      action="https://formsubmit.co/omngawande8888695399@gmail.com"
+      method="POST"
+    >
+      <div class="container">
+        <h2>Contact Us</h2>
+        <div class="row">
+          <div class="col">
+            <div class="inputBox">
+              <input type="text" name="Fname" required="required" />
+              <span class="text">First Name</span>
+              <span class="line"></span>
+            </div>
+          </div>
+          <div class="col">
+            <div class="inputBox">
+              <input type="text" name="Lname" required="required" />
+              <span class="text">Last Name</span>
+              <span class="line"></span>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col">
+            <div class="inputBox">
+              <input type="text" name="Email" required="required" />
+              <span class="text">Email</span>
+              <span class="line"></span>
+            </div>
+          </div>
+          <div class="col">
+            <div class="inputBox">
+              <input type="text" name="number" required="required" />
+              <span class="text">Mobile</span>
+              <span class="line"></span>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col">
+            <div class="inputBox textarea">
+              <textarea name="Type here" required="required"></textarea>
+              <span class="text">Type your Message here...</span>
+              <span class="line"></span>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col">
+            <input type="submit" value="Send" />
+          </div>
+        </div>
+      </div>
     </form>
-</body>
+    <script src="../javascript/app.js"></script>
+  </body>
 </html>

@@ -102,10 +102,10 @@ body{
 
     .nav-links{
         position: absolute;
-        right: -90px;
+        right: -177px;
         height: 92vh;
-        top: 8vh;
-        font-size: 30px;
+        top: 3vh;
+        font-size: 20px;
         background:transparent;
         display: flex;
         flex-direction: column;
