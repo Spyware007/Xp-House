@@ -386,7 +386,7 @@ body{
     align-items: center;
     justify-content: center;
     padding: 100px 0;
-    background: linear-gradient(315deg,	#182424 0%,#059999 74%);
+    background: linear-gradient(315deg, #182424 0%,#059999 74%);
     z-index: 11;
 }
 .timeline{
@@ -406,7 +406,13 @@ body{
     border-radius: 10px;
     margin-bottom: 20px;
     font-family: 'Montserrat', sans-serif;
+    transition: 0.3s ease;
 }
+
+.timeline ul li:hover{
+    box-shadow: 3px 3px 5px rgba(68, 68, 68, 0.788);
+}
+
 .timeline ul li:last-child{
     margin-bottom: 0;
 }
