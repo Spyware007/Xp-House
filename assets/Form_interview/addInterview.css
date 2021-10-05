@@ -7,11 +7,10 @@
 }
 
 .background{
-    height: 100vh;
+    height: 230vh;
     width: 100%;
-    /* background: url(../images/undraw_publish_post_vowb.svg) no-repeat left; */
-    background-color: rgb(255, 255, 255);
-    background-size: 20%;
+    background-size: 100%;
+    background: linear-gradient(120deg,rgb(0, 204, 255),rgb(0, 95, 184));
 }
 
 .form{
@@ -41,6 +40,8 @@ form{
     background-color: azure;
     font-size: 1.3rem;
     border-radius: 20px;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.212);
+    margin: 3rem 0;
 }
 
 .title h1{
@@ -68,7 +69,7 @@ form{
 }
 
 input,textarea {
-    padding: 0.5rem 0;
+    padding: 0.5rem;
     width: 100%;
     border: none;
     box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.144);
@@ -76,21 +77,28 @@ input,textarea {
     text-align: center;
     margin-top: 5px;
     font-size: 1.3rem;
+    transition: 0.3s ease-in;
 }
 
 input:focus,textarea:focus {
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.356);
     color: rgb(0, 132, 255);
+    transform: scale(1.2);
 }
 
 label{
     font-size: 1.4rem;
     font-weight: 400;
-    
+    transition: 0.3s ease-in;
+}
+
+label:hover{
+    text-shadow: 0 0 20px rgba(0, 0, 0, 0.356);
 }
 
 textarea{
     resize: vertical;
+    text-align: left;
 }
 
 .collage{
