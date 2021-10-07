@@ -7,18 +7,18 @@
 }
 
 .background{
-    height: 230vh;
+    height: 260vh;
     width: 100%;
     background-size: 100%;
     background: linear-gradient(120deg,rgb(0, 204, 255),rgb(0, 95, 184));
 }
 
 .form{
-    position: absolute;
+    position: relative;
     width: 50%;
     top: 50%;
     left: 50%;
-    transform: translate(-50%,-50%);
+    transform: translate(-50%,-63%);
     display: flex;
     justify-content: center;
     height: 80%;
@@ -44,6 +44,10 @@ form{
     margin: 3rem 0;
 }
 
+.frame{
+    margin: 5rem 2rem;
+}
+
 .title h1{
     font-weight: 400;
     margin-bottom: 2rem;
@@ -66,6 +70,7 @@ form{
 .name .first-name ,.name .last-name{
     align-items: center;
     justify-content: center;
+    flex: 0 0 40%;
 }
 
 input,textarea {
@@ -87,7 +92,7 @@ input:focus,textarea:focus {
 }
 
 label{
-    font-size: 1.4rem;
+    font-size: 24px;
     font-weight: 400;
     transition: 0.3s ease-in;
 }
@@ -112,10 +117,20 @@ textarea{
     margin-bottom: 2rem;
 }
 
+.collage-name{
+    flex: 0 0 40%;
+}
+
+.branch{
+    flex: 0 0 40%;
+}
+
 .graduation{
     width: 50%;
     justify-self: center;
     align-self: center;
+    flex: 0 0 40%;
+    margin-bottom: 2rem;
 }
 
 .personal-details{
@@ -133,11 +148,6 @@ textarea{
     margin-top: 3rem;
 }
 
-
-.other-details{
-    margin-bottom: 1rem;
-}
-
 .name-of-company,.years-of-experiance,.linkedin,.role{
     flex: 0 0 40%;
 }
@@ -151,7 +161,7 @@ textarea{
 .professional-details{
     background-color: rgb(0, 170, 133);
     color: white;
-    height: 460px;
+    height: 550px;
 }
 
 
@@ -174,4 +184,110 @@ textarea{
 
 .interview-role,.company-name{
     flex:0 0 40%;
+}
+
+/* RESPONSIVE */
+
+@media screen and (max-width: 1225px) {
+
+    .background{
+        height: 260vh;
+    }
+
+    .frame{
+        margin: none;
+    }
+
+    .container{
+        width: 95%;
+        padding: 1rem;
+    }
+
+    h1{
+        font-size: 1.6rem;
+    }
+
+    input,textarea{
+        padding: 0.2rem;
+        font-size: 14px ;
+    }
+    label{
+        font-size: 14px;
+    }
+    .form{
+        width: 50%;
+        padding-left: 2rem;
+    }
+
+    .title h1 {
+        font-size: 1.2rem;
+        line-height: 25px;
+    }
+    .title i{
+        display: block;
+    }
+    .heading h1{
+        font-size: 1.7rem;
+    }
+}
+
+@media screen and (max-width: 850px) {
+    .form{
+        width: 70%;
+    }
+    .frame{
+        margin: none;
+    }
+}
+
+
+@media screen and (max-width: 600px) {
+    .form{
+        transform: translate(-52%,-63%);
+    }
+    .background{
+        height: 300vh;
+    }
+
+    input,textarea{
+        padding: 0.2rem;
+        font-size: 14px ;
+    }
+
+    label{
+        font-size: 14px;
+        font-weight: 400;
+    }
+    .form{
+        width: 90%;
+    }
+    .frame{
+        margin: none;
+    }
+}
+
+
+@media screen and (max-width: 360px) {
+    .form{
+        transform: translate(-52%,-63%);
+    }
+    .background{
+        height: 380vh;
+    }
+
+    input,textarea{
+        padding: 0.2rem;
+        font-size: 14px ;
+    }
+
+    label{
+        font-size: 14px;
+        font-weight: 400;
+    }
+    .form{
+        width: 90%;
+    }
+    .frame{
+        margin: none;
+    }
 }
