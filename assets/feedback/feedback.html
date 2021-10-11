@@ -4,43 +4,44 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="feedback.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="icon" href="../favicon.png" type="image/icon type">
-    <title>Document</title>
+    <title>Feedback Page</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+   
+    <link rel="stylesheet" type="text/css" href="feedback.css">
 </head>
 <body>
-    <header class="header">
-        <nav class="nav">
-            <ul class="nav-links">
-                <li><a href="/index.html">Home</a></li>
-                <li><a href="../interviews/interviews.html">Interviews </a></li>
-                <li><a href="../about/about.html">About Us</a></li>
-                <li><a href="./feedback.html">Feedback</a></li>
-                <li><a href="../contactus/contactus.html">Contact Us</a></li>
-            </ul>
-            <div class="burger">
-                <div class="line1"></div>
-                <div class="line2"></div>
-                <div class="line3"></div>
+    <section class="feedback">
+        <div class="content">
+            
+            <h2>Thanks For Visiting Our Site!</h2>
+            <p class="low" >We hope you enjoy our services as much as we enjoy offering them to you. If you have any question or queries regarding our website, please do not hesitate to contact us.</p>
+        </div>
+        <div class="feedbackForm">
+                
+                <form >
+                    <h2>What can we do for you?</h2>
+                    <div class="inputbox" >
+                        <input type="text" name="" required="required" >
+                        <span>First Name</span>
+                    </div>
+                    <div class="inputbox" >
+                        <input type="text" name="" required="required" >
+                        <span>Last Name</span>
+                    </div>
+                    <div class="inputbox" >
+                        <input type="text" name="" required="required" >
+                        <span>Email</span>
+                    </div>
+                    <div class="inputbox" >
+                        <textarea required="required" ></textarea>
+                        <span>Type Your Message...</span>
+                    </div>
+                    <div class="inputbox" >
+                        <input type="submit" name="" value="Submit" >
+                </form>
             </div>
-        </nav>
-    </header>
-    <div class="container">
-        <form action="https://formsubmit.co/spixer0079834899149@gmail.com" method="POST">
-            <h1>Give Your Feedback</h1>
-            <div class="id">
-                <input type="text" placeholder="Your Name">
-                <i class="fa fa-user"></i>
-            </div>
-            <div class="id">
-                <input type="email" placeholder="Email address">
-                <i class="fa fa-envelope"></i>
-            </div>
-            <textarea name="feedback" id="" cols="15" rows="5" placeholder="Enter your opinions here"></textarea>
-            <button>Send</button>
-        </form>
-    </div>
-    <script src="../javascript/app.js"></script>
+        </div>
+    </section>
 </body>
 </html>
+
